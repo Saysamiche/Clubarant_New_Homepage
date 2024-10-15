@@ -222,7 +222,7 @@ span {
     display: flex;
     position: absolute;
     top: 142px;
-    right: 33px;
+    /* right: 33px; */
     border-radius: 0px;
     background-color: transparent;
     width: fit-content;
