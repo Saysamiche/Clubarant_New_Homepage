@@ -157,6 +157,7 @@ span {
   font-size: 14px;
   font-weight: 400;
   margin: 90px auto;
+  color: #000;
   cursor: pointer;
 }
 .togglebutton {
@@ -221,7 +222,7 @@ span {
     display: flex;
     position: absolute;
     top: 142px;
-    right: 19px;
+    right: 33px;
     border-radius: 0px;
     background-color: transparent;
     width: fit-content;
@@ -229,7 +230,6 @@ span {
     text-align: left;
   }
   .login {
-    padding-right: 40px;
     font-size: 18px;
     margin-top: 22px;
     font-weight: bolder;
