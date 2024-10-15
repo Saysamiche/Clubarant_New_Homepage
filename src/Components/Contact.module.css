@@ -1,0 +1,195 @@
+.lightMode {
+  background: #fff8f6;
+}
+.nightMode {
+  background: #000;
+  color: #fff;
+}
+.wrapper {
+  height: 483px;
+  width: auto;
+  margin: 0 auto;
+}
+.nightMode .container {
+  border: 1px solid #ffffff15;
+}
+.container {
+  width: 1145px;
+  height: 411px;
+  border-radius: 25px;
+  margin: 0 auto;
+  background: #a47c6f1a;
+  border: 1px solid #ffffff;
+  padding: 30px 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact {
+  width: 430px;
+  height: 238px;
+}
+.nightMode .contact h2,
+.nightMode .contact h4 {
+  color: #fff;
+  font-weight: lighter;
+}
+.nightMode .contact p {
+  color: #535352;
+}
+.contact h2 {
+  width: 430px;
+  height: 69px;
+  font-family: MAINLUX;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 68.8px;
+  letter-spacing: 0.04em;
+  color: #2f2f2e;
+}
+.contact h4 {
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.2px;
+  letter-spacing: 0.04em;
+  color: #2f2f2e;
+  width: 449px;
+  height: 25px;
+}
+.contact p {
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #5d5d5d;
+  width: 423px;
+  height: 112px;
+  margin-top: 15px;
+}
+.inputwrap {
+  display: flex;
+  align-items: center;
+  width: 640px;
+  height: 411px;
+  padding: 15px 12px;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+.inputfield {
+  width: 626px;
+  height: 348px;
+  background: #fdfdfd42;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.nightMode .inputfield,
+.nightMode .inputfield input {
+  background: #000;
+  color: #fff;
+}
+.nightMode .inputfield input {
+  border: 1px solid #bebebe50;
+}
+
+.inputfield input {
+  border: 1px solid #bebebe;
+  background: #fdfdfd42;
+  width: 550px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 25px 30px 15px 30px;
+  outline: none;
+  font-size: 14px;
+  padding-left: 20px;
+  /* position: relative; */
+  top: 20px;
+}
+/* .inputfield input::placeholder {} */
+
+.btnsubmit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnsubmit button {
+  width: 344px;
+  height: 40px;
+  background: #e56337;
+  border-radius: 8px;
+  border: none;
+  padding: 20px, 24px;
+  cursor: pointer;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  text-align: center;
+  color: #e8e8e8;
+}
+
+@media (max-width: 1161px) {
+  .wrapper {
+    height: 680px;
+  }
+  .container {
+    width: fit-content;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 580px;
+    display: block;
+    padding: 10px 36px;
+  }
+  .contact h2 {
+    font-size: 30px;
+  }
+  .contact h4 {
+    font-size: 16px;
+  }
+  .contact p {
+    font-size: 14px;
+  }
+  .contact,
+  .contact h2,
+  .contact h4,
+  .contact p {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+  }
+
+  .inputwrap,
+  .inputfield {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .inputfield input {
+    width: 400px;
+    margin: 15px auto;
+  }
+  .btnsubmit button {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 560px) {
+  .container {
+    margin: 0 auto;
+    width: 100%;
+    height: fit-content;
+  }
+  .inputfield {
+    width: 100%;
+  }
+  .inputfield input {
+    width: 100%;
+    margin: 10px auto;
+  }
+  .btnsubmit button {
+    width: 220px;
+    padding: 10px;
+    margin: 20px auto;
+  }
+}
