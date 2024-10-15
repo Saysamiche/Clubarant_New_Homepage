@@ -222,17 +222,17 @@ span {
     display: flex;
     position: absolute;
     top: 142px;
-    /* right: 33px; */
+    right: 19px;
     border-radius: 0px;
     background-color: transparent;
     width: fit-content;
     height: fit-content;
-    text-align: left;
   }
   .login {
-    font-size: 18px;
+    padding-right: 40px;
+    font-size: 16px;
     margin-top: 22px;
-    font-weight: bolder;
+    font-weight: bold;
   }
   .texts {
     padding-top: 150px;
